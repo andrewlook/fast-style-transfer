@@ -4,3 +4,6 @@ task:
     mode: serve
     input:
       - 'floydhub/datasets/pretrain-styles/1:input'
+input:
+  - destination: mscoco
+    source: tarunw07/datasets/mscoco/1
