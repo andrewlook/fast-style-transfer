@@ -14,4 +14,6 @@ python style.py --style $STYLE_IMG \
   --test-dir /output/test \
   --content-weight 1.5e1 \
   --checkpoint-iterations 1000 \
-  --batch-size 20
+  --batch-size 20 \
+  --train-path data/train2014 \
+  --vgg-path data/imagenet-vgg-verydeep-19.mat
